@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -25,7 +25,7 @@ const Navbar = () => {
     return (
         <div className="navbar bg-base-100 shadow-md px-9 fixed z-10">
   <div className="flex-1">
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <Link to="/" className="btn btn-ghost text-xl">ByteBlaze</Link>
   </div>
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1 flex gap-3 items-center">
